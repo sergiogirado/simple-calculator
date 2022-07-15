@@ -1,0 +1,14 @@
+.display {
+  text-align: right;
+  padding-top: 20px;
+}
+
+.display-value {
+  margin: 0;
+}
+
+.display-input {
+  margin: 0 0 20px;
+  font-weight: bold;
+  font-size: 30px;
+}

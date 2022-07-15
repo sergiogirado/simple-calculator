@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+}
+
+.app-container {
+  padding: 10px;
+  background-color: rgb(247, 247, 247);
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.app-header {
+  margin-top: 20px;
+  font-size: larger;
+  font-weight: bold;
+}

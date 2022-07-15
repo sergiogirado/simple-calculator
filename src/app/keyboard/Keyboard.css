@@ -1,0 +1,30 @@
+.keyboard {
+  display: grid;
+  grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+  gap: 2px;
+  place-items: stretch;
+}
+
+.keyboard-button {
+  --main-bg-color: rgb(233, 233, 233);
+  --contrast-bg-color: rgb(202, 202, 202);
+
+  min-width: 80px;
+  min-height: 80px;
+  border: none;
+  font-size: 20px;
+  background-color: var(--main-bg-color);
+  border-radius: 5px;
+}
+
+.keyboard-button.keyboard-button--higlight {
+  background-color: var(--contrast-bg-color);
+}
+
+.keyboard-button:hover {
+  background-color: var(--contrast-bg-color);
+}
+
+.keyboard-button.keyboard-button--higlight:hover {
+  background-color: var(--main-bg-color);
+}
